@@ -178,7 +178,10 @@ def player_numbers(name)
   array
 end
 
-
+def player_stats(name)
+  game = game_hash
+  array = []
+end
 
 
 
