@@ -160,7 +160,7 @@ def team_names
   game = game_hash
   array = []
   game_hash.each do |key, value|
-    array.push([:team_name])
+    array.push(value[:team_name])
   end
   puts array
   array
