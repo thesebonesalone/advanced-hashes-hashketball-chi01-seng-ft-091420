@@ -169,7 +169,7 @@ def player_numbers(name)
   array = []
   game_hash.each do |key, value|
     if value[:team_name] == name
-      puts "Success"
+      value[:team_name][]
     end
   end
 end
