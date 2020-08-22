@@ -160,9 +160,7 @@ def team_names
   game = game_hash
   array = []
   game_hash.each do |key, value|
-    if key == :team_name
-      puts key
-    end
+    puts key
   end
   array
 end
