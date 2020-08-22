@@ -175,6 +175,7 @@ def player_numbers(name)
       end
     end
   end
+  array
 end
 
 
