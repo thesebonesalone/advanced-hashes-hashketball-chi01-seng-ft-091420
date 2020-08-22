@@ -164,19 +164,22 @@ def team_names
   end
   array
 end
+
 def player_numbers(name)
   game = game_hash
   array = []
   game_hash.each do |key, value|
     if value[:team_name] == name
       value[:players].each do |index|
-        puts "success"
         array.push(index[:number])
       end
     end
   end
   array
 end
+
+
+
 
 
 
