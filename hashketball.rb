@@ -132,6 +132,7 @@ def num_points_scored(name)
     key[:players].each |index|
     puts index
   end
+  end
 end
 
 
