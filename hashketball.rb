@@ -158,6 +158,9 @@ end
 
 def team_names
   game = game_hash
+  array = []
+  game_hash.each do |key, value|
+    if key == 
 end
 
 
