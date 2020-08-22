@@ -171,6 +171,7 @@ def player_numbers(name)
     if value[:team_name] == name
       value[:players].each do |index|
         puts "success"
+        array.push(index[:number])
       end
     end
   end
