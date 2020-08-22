@@ -181,9 +181,9 @@ end
 def player_stats(name)
   game = game_hash
   array = []
-  game[:players].each do |key, value|
-    if value[:player_name] == name
-      return value
+  game[:players].each do |index|
+    if index[:player_name] == name
+      return index
     end
   end
 end
