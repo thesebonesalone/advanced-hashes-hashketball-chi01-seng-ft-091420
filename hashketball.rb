@@ -161,7 +161,7 @@ def team_names
   array = []
   game_hash.each do |key, value|
     if key == :team_name
-      array.push(key)
+      puts key
     end
   end
   array
