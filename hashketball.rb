@@ -142,8 +142,7 @@ def shoe_size(name)
   game_hash.each do |key, value|
     value[:players].each do |index|
       if index[:player_name] == name
-        puts index[shoe]
-        return index[:shoe_size]
+        return index[:shoe]
       end
     end
   end
@@ -152,7 +151,7 @@ def team_colors(team)
   game = game_hash
   game_hash.each do |key,value|
     if value[:team_name] == team
-      return value[:team_name][:colors]
+      puts value[:team_name][:colors]
     end
   end
 end
