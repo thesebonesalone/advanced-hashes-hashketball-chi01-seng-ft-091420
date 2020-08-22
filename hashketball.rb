@@ -162,10 +162,17 @@ def team_names
   game_hash.each do |key, value|
     array.push(value[:team_name])
   end
-  puts array
   array
 end
-
+def player_numbers(name)
+  game = game_hash
+  array = []
+  game_hash.each do |key, value|
+    if value[:team_name] == name
+      puts "Success"
+    end
+  end
+end
 
 
 
