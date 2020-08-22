@@ -129,7 +129,11 @@ end
 def num_points_scored(name)
   game = game_hash
   game_hash.each do |key, value|
-    puts key
+    key[:players].each |index|
+    if index[:player_name] = name
+      return index[points]
+    end
+      
   end
 end
 
