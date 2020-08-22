@@ -170,7 +170,7 @@ def player_numbers(name)
   game_hash.each do |key, value|
     if value[:team_name] == name
       value[:players].each do |index|
-        array.push(index[number])
+        array.push(index[:number])
     end
   end
 end
