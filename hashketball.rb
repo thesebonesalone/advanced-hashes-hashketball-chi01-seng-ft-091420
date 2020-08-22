@@ -162,6 +162,7 @@ def team_names
   game_hash.each do |key, value|
     array.push([:team_name])
   end
+  puts array
   array
 end
 
